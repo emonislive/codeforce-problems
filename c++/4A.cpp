@@ -4,7 +4,7 @@
     using namespace std;
     int main()
     {
-        int a, temp, temp2, rem, div;
+        int a;
         cin >> a;
      
         if (a % 2 == 0)
