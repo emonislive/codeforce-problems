@@ -5,10 +5,10 @@ using namespace std;
 void solve(int range, int s){
 
     int c = 0, z = 0;
-    for (int x = 0; x < range; x++){
-        for(int y = 0; y < range; y++){
-            z = s + (x - y);                // given, X + Y + Z = S
-            if (0 >= z && z <= range)
+    for (int x = 0; x <= range; x++){
+        for(int y = 0; y <= range; y++){
+            z = s - (x + y);                // given, X + Y + Z = S
+            if (0 <= z && z <= range)
                 c++;
         }
     }
