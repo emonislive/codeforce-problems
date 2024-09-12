@@ -14,8 +14,8 @@ int main()
 	ex: 134 x 154 x 333,  last two digit: 34 x 54 x 33 = ....
 	by this way we can bypass the limit and get our expected result
 	*/
-  
 	ios::sync_with_stdio(false); cin.tie(NULL);
+	
 	ll a, b, c, d, n1,n2;
 	cin >> a >> b >> c >> d;
 
