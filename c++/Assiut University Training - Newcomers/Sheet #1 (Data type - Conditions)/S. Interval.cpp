@@ -22,8 +22,9 @@ int main()
   ios::sync_with_stdio(false); cin.tie(NULL);
 
   ld a;
-  cin >> a;
   
+  cin >> a;
   solve(a);
+  
   return 0;
 }
