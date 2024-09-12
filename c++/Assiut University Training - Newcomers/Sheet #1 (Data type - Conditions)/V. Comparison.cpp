@@ -5,11 +5,13 @@ using namespace std;
 int main()
 {
 	ios::sync_with_stdio(false); cin.tie(NULL);
+	
 	int a, b, c = 0;
 	char ch;
+	
 	cin >> a >> ch >> b;
 	switch(ch)
-  {
+  	{
 		case '<':
 			  if (a < b)
 				  c++;
