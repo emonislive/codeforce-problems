@@ -40,6 +40,7 @@ using namespace std;
 signed main()
 {
 	ios::sync_with_stdio(false); cin.tie(NULL);
+	
 	int a, b, c, temp, i = 3;
 	int t1, t2, t3;
 	cin >> a >> b >> c;
