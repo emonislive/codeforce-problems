@@ -20,8 +20,10 @@ void solve(ll a, char ch, ll b) {
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    
     ll a, b;
     char ch;
+    
     cin >> a >> ch >> b;
     solve(a, ch, b);
     return 0;
