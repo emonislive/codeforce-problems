@@ -12,7 +12,6 @@ using namespace std;
      |            |
     [L2-----------------R2]
      3                  14
-
 */
 
 void solve(ll l1, ll l2, ll r1, ll r2) {
@@ -48,11 +47,12 @@ void solve(ll l1, ll l2, ll r1, ll r2) {
 }
 
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(NULL);
+  ios::sync_with_stdio(false); cin.tie(NULL);
+ 
   ll l1, l2, r1, r2;
+ 
   cin >> l1 >> r1 >> l2 >> r2;
-
   solve(l1, l2, r1, r2);
+ 
   return 0;
 }
