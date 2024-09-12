@@ -17,6 +17,7 @@ void solve(int a, int b)
         5.444(div value) - 5(floor value) = 0.444(dif value)
         by comparing the dif value, the ROUND can be calculated easily.
     */ 
+    
     ld div = (long double)a / b;
     ld dif = div - floor;
     
@@ -29,8 +30,7 @@ void solve(int a, int b)
 
 int main()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); cout.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     
     int a, b;
     cin >> a >> b;
