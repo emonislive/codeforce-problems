@@ -25,10 +25,8 @@ int main()
 	ios::sync_with_stdio(false); cin.tie(NULL);
 	int a,b,c, maxNum, minNum;
 	cin >> a >> b >> c;
-
 	maxNum = max(a, max(b,c)); 
 	minNum = min(a, min(b,c));
-
 	cout << minNum << " " << maxNum << endl;
 	return 0;
 }
