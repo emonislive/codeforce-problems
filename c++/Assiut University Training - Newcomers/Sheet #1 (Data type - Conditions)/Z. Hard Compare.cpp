@@ -1,4 +1,3 @@
-// #include <bits/stdc++.h>
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -8,6 +7,7 @@ using namespace std;
 int main()
 {
 	ios::sync_with_stdio(false); cin.tie(NULL);
+	
 	ld a, b, c, d;
 	cin >> a >> b >> c >> d;
 	
