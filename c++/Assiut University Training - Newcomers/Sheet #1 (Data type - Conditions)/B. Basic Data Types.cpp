@@ -12,6 +12,5 @@ int main()
     cout << a << endl << b << endl;
     cout << c << endl << d << endl;
     cout << e;
-
     return 0;
 }
