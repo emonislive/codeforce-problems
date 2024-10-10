@@ -1,17 +1,28 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 #define endl '\n'
+#define ll long long
 #define optimize() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+void solve(vector<ll> v) {
+    ll ans = 0;
+    for (ll i = 0; i < v.size(); i++) {
+        ans += v[i];
+    }
+    cout << abs(ans) << endl;
+}
 
 int main() {
     optimize();
-    int n, ans = 0;
+    vector<ll>v;
+    ll n;
     cin >> n;
-    int arr[n];
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-        ans += arr[i];
+    for (ll i = 0; i < n; i++) {
+        ll in;
+        cin >> in;
+        v.push_back(in);
     }
-    cout << ans << endl;
+    solve(v);
     return 0;
 }
