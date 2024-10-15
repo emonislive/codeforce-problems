@@ -80,6 +80,7 @@ void solve(int len, int totFind) {
         binarySearch(arr, find, len);
     }
 }
+
 int main() {
     optimize();
     int len, totFind;
