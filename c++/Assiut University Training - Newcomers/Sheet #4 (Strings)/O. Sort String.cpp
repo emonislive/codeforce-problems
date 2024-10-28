@@ -17,6 +17,7 @@ void solve(int stringSize) {
     for (int i = 0; i < 26; i++) {
         // If the current character (represented by index `i`) exists in the input
         if (charCount[i] != 0) {
+            // this condition handles if there are more than one same character exists or not. for ex. aaaa, charCount[0] = 4
             while (charCount[i]--) {
                 // Convert the index back to a character
                 char vectorAddressToChar = i + 97;
