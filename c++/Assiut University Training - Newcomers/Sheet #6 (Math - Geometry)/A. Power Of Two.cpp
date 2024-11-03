@@ -2,7 +2,7 @@
 using namespace std;
 #define endl '\n'
 #define ll long long
-void solve(int number)
+void solve(ll number)
 {
     ll previousNumber = number - 1;
 
