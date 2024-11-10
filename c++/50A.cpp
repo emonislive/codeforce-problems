@@ -2,7 +2,6 @@
 #include <cmath>
 using namespace std;
 #define endl '\n'
-#define ld long double
 
 void solve(int m, int n)
 {
