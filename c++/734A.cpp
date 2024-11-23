@@ -10,7 +10,6 @@ void solve(int size) {
     }
   
     int a = 0, d = 0;
-  
     for (int i = 0; i < size; i++) {
         if (match[i] == 'A')
             a++;
