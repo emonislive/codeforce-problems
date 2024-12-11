@@ -6,7 +6,7 @@ using namespace std;
 
 void solve(int arraySize, int operations)
 {
-    vector<ll> arr(arraySize + 1), prefixSum(arraySize + 1);
+    vector<ll> arr(arraySize + 1), prefixSum(arraySize + 1); // +1 because the array indexing started 0 as 1.
     ll sum = 0, left, right, ans;
     ll a, b, c;
     for (int i = 1; i < arraySize + 1; i++)
