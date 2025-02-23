@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #define endl '\n'
+#define ll long long
 
 void solve(char alphabet)
 {
@@ -29,7 +30,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int test;
+    ll test;
     char alphabet;
     cin >> test;
     while(test--){
