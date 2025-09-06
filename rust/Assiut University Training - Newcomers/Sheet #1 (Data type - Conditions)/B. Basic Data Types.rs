@@ -14,7 +14,7 @@ fn main() {
 
     integer = arr[0].parse::<i32>().unwrap();
     long_long = arr[1].parse::<i64>().unwrap();
-    character = arr[2].parse::<char>().unwrap();
+    character = arr[2].chars().next().unwrap();
     float = arr[3].parse::<f32>().unwrap();
     double = arr[4].parse::<f64>().unwrap();
 
