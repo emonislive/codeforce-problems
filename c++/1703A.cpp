@@ -1,38 +1,30 @@
 #include <iostream>
-using namespace std;
 #define endl '\n'
 
-void solve(string s)
-{
-    // i am a lazzzzy parson, just added some hard code. it just compares the s[0 1 2] index characters. hehe
-    if (s[0] == 'Y' || s[0] == 'y')
-    {
-        if (s[1] == 'E' || s[1] == 'e')
-        {
-            if (s[2] == 'S' || s[2] == 's')
-                cout << "YES" << endl;
-            else
-                cout << "NO" << endl;
-        }
-        else
-            cout << "NO" << endl;
-    }
-    else
-        cout << "NO" << endl;
+void fastIO() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 }
 
-int main()
-{
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
+void solve() {
+    std::string s;
+    std::cin >> s;
 
-    int t;
-    string s;
-    cin >> t;
-    while (t--)
-    {
-        cin >> s;
-        solve(s);
-    }
+    for (auto& ch : s)
+        ch = tolower(ch);
+
+    if (s == "yes")
+        std::cout << "YES" << endl;
+    else
+        std::cout << "NO" << endl;
+}
+
+int main() {
+    fastIO();
+    int tc;
+    std::cin >> tc;
+    while (tc--)
+        solve();
+
     return 0;
 }
