@@ -11,7 +11,7 @@ void fastIO() {
 void solve() {
     int size{};
     std::cin >> size;
-    std::vector<std::pair<int, int>> arr(size);
+    std::vector<std::pair<int, int>> arr(size); // ? {value, color}
 
     int index{};
     for (auto& it : arr) {
