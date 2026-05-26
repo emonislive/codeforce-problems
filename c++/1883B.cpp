@@ -19,7 +19,6 @@ void solve() {
         std::cin >> s[i];
         freq[s[i]]++;
     }
-    sort(s.begin(), s.end());
 
     int odd{};
     for (auto ch : freq) {
